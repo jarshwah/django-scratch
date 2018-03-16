@@ -1,3 +1,7 @@
+# This Project
+db.sqlite3
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -99,3 +103,10 @@ ENV/
 
 # mypy
 .mypy_cache/
+*.py[co]
+MANIFEST
+docs/locale/
+node_modules/
+tests/coverage_html/
+tests/.coverage
+tests/report/

@@ -1,0 +1,28 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+django = "*"
+
+
+[dev-packages]
+
+"flake8" = "*"
+isort = "*"
+"flake8-builtins" = "*"
+"flake8-comprehensions" = "*"
+"flake8-bugbear" = "*"
+"flake8-isort" = "*"
+ipython = "*"
+ipdb = "*"
+django-extensions = "*"
+
+
+[requires]
+
+python_full_version = "3.6.4"
