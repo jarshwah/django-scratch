@@ -21,8 +21,14 @@ isort = "*"
 ipython = "*"
 ipdb = "*"
 django-extensions = "*"
+black = "*"
 
 
 [requires]
 
 python_full_version = "3.6.4"
+
+
+[pipenv]
+
+allow_prereleases = true
