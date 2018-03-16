@@ -6,8 +6,8 @@ testing against the django core repository.
 
 The directory structure should be:
 
-~/projects/django/
-~/projects/django-scratch/
+- ~/projects/django/
+- ~/projects/django-scratch/
 
 ## Initialization
 
