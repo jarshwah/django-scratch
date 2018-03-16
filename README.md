@@ -1,5 +1,10 @@
 # django-scratch
-A project that can be used for testing and interacting with django patches.
+
+A project that can be used for testing and interacting with django patches, in
+a user focused way.
+
+If you're looking to run the django test suite, then the
+[django-box](https://github.com/django/django-box) project is more useful.
 
 The `manage.py` file is configured to load django from a sibling path of the project, to facilitate
 testing against the django core repository.
