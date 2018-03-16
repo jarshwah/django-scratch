@@ -1,7 +1,7 @@
 # django-scratch
-A project that can be used for testing django patches
+A project that can be used for testing and interacting with django patches.
 
-The `manage.py` file is configured to load django from a sibling path of the project, to facilitate 
+The `manage.py` file is configured to load django from a sibling path of the project, to facilitate
 testing against the django core repository.
 
 The directory structure should be:
