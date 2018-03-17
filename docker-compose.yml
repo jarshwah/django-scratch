@@ -1,0 +1,10 @@
+version: '2'
+services:
+  db:
+    image: postgres:latest
+    environment:
+      - POSTGRES_PASSWORD=scratch
+      - POSTGRES_USER=scratch
+      - POSTGRES_DB=scratch
+    ports:
+      - "6432:5432"

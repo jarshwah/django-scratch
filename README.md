@@ -29,3 +29,21 @@ $ cd scratch
 $ pipenv run python manage.py migrate
 $ pipenv run python manage.py shell_plus
 ```
+
+The defaults use sqlite as the database backend. There's also support for using
+postgres via docker-compose (or edit the `settings_psql.py` to point to an
+existing postgres server):
+
+```bash
+$ cd django-scratch
+$ docker-compose up
+$ cd scratch
+$ pipenv run python pgmanage.py migrate
+$ pipenv run python pgmanage.py shell_plus
+```
+
+The `pgmanage.py` script is just a shorthand for:
+
+```bash
+$ pipenv run python manage.py --settings=scratch.settings_psql migrate
+```
